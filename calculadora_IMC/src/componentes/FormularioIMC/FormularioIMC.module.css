@@ -1,0 +1,44 @@
+
+div {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    background-color: #63cdda;
+    color: #303952;
+}    
+
+
+label {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+input {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+button {
+    align-self: center;
+    width: 50%;
+    height: 24px;
+    background-color: #e66767;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 0;
+
+    &:hover {
+        background-color: #c44569;
+    }
+
+}
+
